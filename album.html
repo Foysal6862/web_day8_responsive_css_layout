@@ -16,6 +16,7 @@
                 border-radius: 10px;
                 position: relative;
                 margin: 15px;
+                overflow: hidden;
             }
             .photo img {
                 width: 100%;
@@ -32,6 +33,10 @@
                 font-weight: 600;
                 color: #ffffff;
                 background-color: rgba(209, 150, 150, 0.367);
+            }
+            .photo-frame:hover .photo {
+                transform: scale(1.5);
+                transition: transform 2s ease-in-out;
             }
         </style>
     </head>
